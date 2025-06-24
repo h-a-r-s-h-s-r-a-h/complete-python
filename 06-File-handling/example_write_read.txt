@@ -1,0 +1,3 @@
+Hello world!
+My name is Harsh.
+I am learning Python file handling.

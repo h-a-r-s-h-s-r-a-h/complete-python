@@ -1,0 +1,4 @@
+hello
+my name is harsh
+i am blockchain and AI/Ml developer
+My favourite programming language is Rust.
