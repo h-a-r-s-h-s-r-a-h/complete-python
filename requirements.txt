@@ -1,3 +1,4 @@
 # python_version == 3.12
 ipykernel==6.29.4
 numpy==2.3.1
+pandas==2.3.0
