@@ -1,0 +1,20 @@
+{
+  "scraping_info": {
+    "base_url": "https://metabees.org/",
+    "total_pages": 1,
+    "failed_urls": 0,
+    "scraped_at": "2025-07-12 22:08:43"
+  },
+  "pages": {
+    "https://metabees.org/": {
+      "url": "https://metabees.org/",
+      "title": "Metabees AI Labs | Enterprise AI Solutions",
+      "description": "Metabees AI Labs: Pioneering enterprise AI solutions for business transformation. Our cutting-edge AI technology empowers organizations to achieve unprecedented efficiency and innovation.",
+      "content": "Metabees AI Labs | Enterprise AI SolutionsYou need to enable JavaScript to run this application.",
+      "content_length": 96,
+      "headings": [],
+      "scraped_at": "2025-07-12 22:08:43"
+    }
+  },
+  "failed_urls": []
+}
