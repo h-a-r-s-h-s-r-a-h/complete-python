@@ -1,0 +1,33 @@
+// How to run a Flask application:
+//
+// 1. Set the main application file (replace 'market.py' with your main file if different)
+export FLASK_APP=market.py
+
+// 2. Enable debug mode for development to get automatic reloading and detailed error messages
+export FLASK_DEBUG=1
+
+// 3. Start the Flask development server
+flask run
+
+// IMPORTANT:
+// When deploying your app to production, always turn OFF debug mode by setting FLASK_DEBUG=0.
+// This prevents clients from seeing detailed error messages and keeps your application secure.
+
+// Example Flask routes:
+
+// Returns a simple text response at /helloWorld
+@app.route("/helloWorld")
+def hello_world():
+    return "Hello, World!"
+
+
+// Returns an HTML response at /helloWorldHtml
+@app.route("/helloWorldHtml")
+def hello_world_html():
+    return "<h1>Hello, World! by HTML</h1>"
+
+
+// Returns a personalized HTML greeting at /hello/<name>
+@app.route("/hello/<name>")
+def hello_name(name):
+    return f"<h1>Hello, {name}!</h1>"
